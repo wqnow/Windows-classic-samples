@@ -8,7 +8,7 @@ mv *.gz networks
 chmod a+x autogtp
 chmod a+x leelaz
 
-for i in $(seq 1 10)
+for i in $(seq 1 2)
 do 
 ./autogtp  -k ./train/ -m 10| grep minute
 sleep 23
